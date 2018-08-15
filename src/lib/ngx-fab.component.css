@@ -1,0 +1,31 @@
+.floating-action-button {
+  position: fixed;
+  z-index: 999;
+}
+
+.floating-action-button button {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.floating-action-button button:active {
+  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.25);
+  transform: translate(1px, 1px);
+}
+
+.fab-small {
+  height: 40px;
+  width: 40px;
+}
+
+.fab-medium {
+  height: 60px;
+  width: 60px;
+}
+
+.fab-large {
+  height: 100px;
+  width: 100px;
+}

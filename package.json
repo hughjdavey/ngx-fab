@@ -1,0 +1,24 @@
+{
+  "name": "ngx-fab",
+  "version": "1.0.0",
+  "description": "Simple floating action buttons for Angular >= 2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughjdavey/ngx-fab.git"
+  },
+  "homepage": "https://github.com/hughjdavey/ngx-fab/blob/master/README.md",
+  "bugs": "https://github.com/hughjdavey/ngx-fab/issues",
+  "keywords": [
+    "angular", "fab", "floating action button", "button", "material", "material design"
+  ],
+  "author": "hughjd",
+  "license": "CC0-1.0",
+  "peerDependencies": {
+    "@angular/common": ">=2.0.0 <7.0.0",
+    "@angular/core": ">=2.0.0 <7.0.0"
+  },
+  "scripts": {
+    "build": "ng build ngx-fab",
+    "postbuild": "node scripts/copy-artifacts.js"
+  }
+}
